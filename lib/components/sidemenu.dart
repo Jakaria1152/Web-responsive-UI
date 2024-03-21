@@ -15,7 +15,7 @@ class sidemenu extends StatelessWidget {
       child: Container(
         width: double.infinity,
         height: SizeConfig.screenHeight,
-        color: Colors.grey.shade100,
+        color: Colors.grey.shade200,
         child: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.max,
@@ -29,7 +29,7 @@ class sidemenu extends StatelessWidget {
                   width: 20,
                   child: SvgPicture.asset('assets/mac-action.svg'),),
               ),
-              IconButton(onPressed: (){}, icon: SvgPicture.asset('assets/home.svg',width: 20,color: Colors.grey,),
+              IconButton(onPressed: (){}, icon: SvgPicture.asset('assets/home.svg',width: 20,color: Colors.black,),
              padding: EdgeInsets.symmetric(vertical: 20),
               ),
               IconButton(onPressed: (){}, icon: SvgPicture.asset('assets/pie-chart.svg',width: 20,color: Colors.grey,),
